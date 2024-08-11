@@ -30,12 +30,13 @@ Before you begin, ensure you have the following installed:
    cd build
    cmake ..
    make
+   ```
 
-**Alternatively, you can compile directly with the C++ compiler:**
+   **Alternatively, you can compile directly with the C++ compiler:**
   
-  ```bash
-  g++ -o image_display main.cpp `pkg-config --cflags --libs opencv4
-  ```
+     ```bash
+     g++ -o image_display main.cpp `pkg-config --cflags --libs opencv4
+     ```
 
 3. **Run the executable:**
 
