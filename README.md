@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/692da714-13e9-4abd-993a-dc58af75b17b)# openCV
+# openCV
 This is a simple C++ project that demonstrates how to read, display, and save an image using the OpenCV library. The program loads an image from a specified file path, displays it in a window, and provides an option to save the image with a new name when the 's' key is pressed.
 
 ## Features
@@ -32,9 +32,12 @@ Before you begin, ensure you have the following installed:
    make
 
 **Alternatively, you can compile directly with the C++ compiler:**
+  
   ```bash
   g++ -o image_display main.cpp `pkg-config --cflags --libs opencv4
+  ```
 
 3. **Run the executable:**
-  ```bash
-  ./image_display
+
+   ```bash
+   ./image_display
